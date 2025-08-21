@@ -6,3 +6,7 @@ public class Age_of_Harry{
         System.err.println(" Harry's age in 2024 is " + age );
     }
 }
+
+//git add .
+// git commit -m "sdkhfskjd"
+// git puch origin core-java
