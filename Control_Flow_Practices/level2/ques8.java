@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques8 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int number = scanner.nextInt();
@@ -19,5 +20,7 @@ public class ques8 {
         } else {
             System.out.println("Please enter a positive integer.");
         }
+
     }
+
 }

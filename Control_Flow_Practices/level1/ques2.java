@@ -10,6 +10,6 @@ public class ques2 {
         System.out.print("Enter third number: ");
         int number3 = scanner.nextInt();
         String result = (number1 < number2 && number1 < number3) ? "Yes" : "No";
-        System.out.println("Is the first number the smallest? " + result);
+        System.out.println("Is the first number smallest.? " + result);
     }
 }

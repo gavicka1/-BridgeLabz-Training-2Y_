@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques14 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the base number (positive integer): ");
@@ -21,7 +22,9 @@ public class ques14 {
 
             System.out.println(number + " raised to the power " + power + " is: " + result);
         } else {
-            System.out.println("Please enter valid positive integers for both base and power.");
+            System.out.println("Please enter valid positive integers for both base and power:");
         }
+
     }
+
 }

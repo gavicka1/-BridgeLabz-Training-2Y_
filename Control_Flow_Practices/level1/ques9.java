@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques9 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter countdown start number: ");
         int counter = scanner.nextInt();
@@ -10,6 +11,7 @@ public class ques9 {
             System.out.println(i);
         }
 
-        System.out.println("Lift off!");
+        System.out.println("Lift off!!");
     }
+    
 }

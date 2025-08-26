@@ -1,5 +1,6 @@
 public class ques7 {
     public static void main(String[] args) {
+
         int month = Integer.parseInt(args[0]);
         int day = Integer.parseInt(args[1]);
 
@@ -19,4 +20,5 @@ public class ques7 {
             System.out.println("Not a Spring Season");
         }
     }
+    
 }

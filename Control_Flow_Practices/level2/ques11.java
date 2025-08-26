@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques11 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer less than 100: ");
         int number = scanner.nextInt();
@@ -14,7 +15,9 @@ public class ques11 {
                 }
             }
         } else {
-            System.out.println("Please enter a positive integer less than 100.");
+            System.out.println("Please enter a positive integer less than 100:");
         }
+        
     }
+
 }

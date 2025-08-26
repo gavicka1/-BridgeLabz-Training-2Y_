@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques12 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a natural number: ");
         int n = scanner.nextInt();
@@ -23,10 +24,10 @@ public class ques12 {
             if (sumLoop == sumFormula) {
                 System.out.println("Both results are correct and match.");
             } else {
-                System.out.println("There is a mismatch in the results.");
+                System.out.println("There is a mismatch in the results");
             }
         } else {
-            System.out.println("The number " + n + " is not a natural number.");
+            System.out.println("The number. " + n + " is not a natural number.");
         }
     }
 }

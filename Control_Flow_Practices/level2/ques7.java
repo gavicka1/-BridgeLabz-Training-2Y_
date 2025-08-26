@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques7 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int number = scanner.nextInt();
@@ -13,9 +14,11 @@ public class ques7 {
                     System.out.println(i);
                 }
             }
-            System.out.println(number);  // number itself is a factor
+            System.out.println(number); 
         } else {
             System.out.println("Please enter a positive integer.");
         }
+
     }
+
 }

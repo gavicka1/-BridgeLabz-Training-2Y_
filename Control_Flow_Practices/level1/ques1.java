@@ -7,6 +7,6 @@ public class ques1 {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         String result = (number % 5 == 0) ? "Yes" : "No";
-        System.out.println("Is the number " + number + " divisible by 5? " + result);
+        System.out.println("Is the number. " + number + " divisible by 5? " + result);
     }
 }

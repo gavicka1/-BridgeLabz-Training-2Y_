@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques9 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter an integer number: ");
         int number = scanner.nextInt();
@@ -15,9 +16,11 @@ public class ques9 {
         }
 
         if (sum > number) {
-            System.out.println(number + " is an Abundant Number.");
+            System.out.println(number + " is an Abundant Number:");
         } else {
-            System.out.println(number + " is not an Abundant Number.");
+            System.out.println(number + " is not an Abundant Number:");
         }
+
     }
+
 }

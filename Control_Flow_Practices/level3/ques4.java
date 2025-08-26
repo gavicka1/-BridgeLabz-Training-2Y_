@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques4 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number greater than 1: ");
         int number = scanner.nextInt();
@@ -21,9 +22,11 @@ public class ques4 {
         }
 
         if (isPrime) {
-            System.out.println(number + " is a Prime Number.");
+            System.out.println(number + " is a Prime Number:");
         } else {
-            System.out.println(number + " is not a Prime Number.");
+            System.out.println(number + " is not a Prime Number:");
         }
+
     }
+
 }

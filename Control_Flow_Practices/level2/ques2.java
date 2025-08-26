@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques2 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter salary: ");
@@ -12,9 +13,11 @@ public class ques2 {
 
         if (yearsOfService > 5) {
             double bonus = salary * 0.05;
-            System.out.println("Bonus amount is: " + bonus);
+            System.out.println("Bonus amount is-: " + bonus);
         } else {
             System.out.println("No bonus. Years of service must be more than 5.");
         }
+
     }
+
 }

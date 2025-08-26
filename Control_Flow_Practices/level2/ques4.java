@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques4 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int number = scanner.nextInt();
@@ -18,8 +19,11 @@ public class ques4 {
                     System.out.println(i);
                 }
             }
+
         } else {
-            System.out.println("Please enter a positive integer.");
+            System.out.println("Please enter a positive integer..");
         }
+
     }
+
 }

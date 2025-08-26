@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques16 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a natural number: ");
         int number = scanner.nextInt();
@@ -17,5 +18,7 @@ public class ques16 {
         } else {
             System.out.println("The number " + number + " is not a natural number.");
         }
+
     }
+
 }

@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class ques11 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         double total = 0.0;
 
         while (true) {
-            System.out.print("Enter a number (0 or negative to stop): ");
+            System.out.print("Enter a number. (0 or negative to stop): ");
             double input = scanner.nextDouble();
 
             if (input <= 0) {
@@ -18,4 +19,5 @@ public class ques11 {
 
         System.out.println("Total sum is: " + total);
     }
+
 }

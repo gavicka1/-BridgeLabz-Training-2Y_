@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques6 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter Amar's age and height:");
@@ -16,7 +17,6 @@ public class ques6 {
         int anthonyAge = scanner.nextInt();
         double anthonyHeight = scanner.nextDouble();
 
-        // Find youngest
         int youngestAge = amarAge;
         String youngestFriend = "Amar";
 
@@ -29,7 +29,6 @@ public class ques6 {
             youngestFriend = "Anthony";
         }
 
-        // Find tallest
         double tallestHeight = amarHeight;
         String tallestFriend = "Amar";
 
@@ -42,7 +41,8 @@ public class ques6 {
             tallestFriend = "Anthony";
         }
 
-        System.out.println("The youngest friend is " + youngestFriend + " with age " + youngestAge);
+        System.out.println("The youngest friend is " + youngestFriend + " with age. " + youngestAge);
         System.out.println("The tallest friend is " + tallestFriend + " with height " + tallestHeight);
     }
+
 }

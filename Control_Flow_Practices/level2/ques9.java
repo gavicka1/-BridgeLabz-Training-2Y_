@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques9 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int number = scanner.nextInt();
@@ -18,7 +19,9 @@ public class ques9 {
 
             System.out.println("The greatest factor of " + number + " (excluding itself) is: " + greatestFactor);
         } else {
-            System.out.println("Please enter a number greater than 1.");
+            System.out.println("Please enter a number greater than 1..");
         }
+
     }
+
 }

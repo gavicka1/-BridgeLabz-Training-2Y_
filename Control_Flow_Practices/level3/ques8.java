@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ques8 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter an integer number: ");
         int number = scanner.nextInt();
@@ -16,9 +17,11 @@ public class ques8 {
         }
 
         if (sum != 0 && number % sum == 0) {
-            System.out.println(number + " is a Harshad Number.");
+            System.out.println(number + " is a Harshad Number:");
         } else {
-            System.out.println(number + " is not a Harshad Number.");
+            System.out.println(number + " is not a Harshad Number:");
         }
+
     }
+
 }
